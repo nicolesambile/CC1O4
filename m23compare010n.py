@@ -3,7 +3,7 @@ import time
 arr_nbs = list(range(1000000))
 
 start_nbs = time.time()
-x = arr_nbs[500000] #constant time
+x_nbs = arr_nbs[500000] #constant time
 end_nbs = time.time()
 
 print("O(1) access time:", end_nbs - start_nbs)
